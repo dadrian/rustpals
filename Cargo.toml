@@ -1,0 +1,12 @@
+[package]
+name = "rustpals"
+version = "0.1.0"
+authors = ["David Adrian <davidcadrian@gmail.com>"]
+
+[lib]
+name = "libpal"
+path = "src/lib.rs"
+
+[dependencies]
+rustc-serialize = "0.3"
+lazy_static = "0.2.1"
